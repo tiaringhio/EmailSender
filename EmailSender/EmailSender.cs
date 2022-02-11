@@ -54,7 +54,7 @@ namespace EmailSender
             if (result.IsSuccessStatusCode)
             {
                 log.LogInformation("[INFO] Email was sent successfully...");
-                return new OkObjectResult("Email inviata correttamente");
+                return new OkObjectResult("Email was sent successfully");
             }
 
             log.LogInformation("[ERROR] There's beeen an error while sending the email", result);

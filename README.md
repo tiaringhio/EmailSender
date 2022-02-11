@@ -13,7 +13,12 @@
 - [Table of contents](#table-of-contents)
 - [About the project](#about-the-project)
 - [Used in this project](#used-in-this-project)
+  - [Azure Function 4.0](#azure-function)
+  - [Docker](#docker)
+  - [SendGrid](#sendgrid)
 - [How To](#how-to)
+- [License](#license)
+- [Contributors](#contributors)
 
 # About The Project
 
@@ -23,7 +28,7 @@ This project is an "academic excercise" that I used to try out the recently rele
 
 # Used in this project
 
-## Azure Function 4.0 Runtime
+## Azure Function
 
 You cand read more about the capabilities of Azure Functions [Here](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-4-0-and-net-6-support-are-now-generally/ba-p/2933245). They'are very useful in a microservice environment, they are usually small pieces of software (yup, that's what a microservice is... [Kind Of](https://microservices.io/)).
 
@@ -33,7 +38,7 @@ The Azure Function i'm using uses and HTTP trigger, which means that the Functio
 
 Yup, Docker for sending a simple email, you read that right.
 
-## **SendGrid**
+## SendGrid
 
 SendGrid is a cloud-based SMTP service provider which let you use their email server to send your emails, you get 100 emails a day on the free tier, more than enough for playing around. The paid tiers are very also honest in terms of pricing.
 
@@ -41,7 +46,7 @@ Why the heck would I use SendGrid? Well in a cloud environment you usually canno
 
 SendGrid offers an [C# SDK](https://github.com/sendgrid/sendgrid-csharp) to send emails with a few lines of code, I used more lines of code to setup the environment than to send the actual email.
 
-# **How to**
+# How to
 
 Create and `.env` file (used to put you sendgrid API key and so on) like the following:
 
