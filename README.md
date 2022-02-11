@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
   <br />
     <p align="center">
-    <img src="https://cdn-icons.flaticon.com/png/512/2374/premium/2374449.png?token=exp=1644599697~hmac=b1cb021bd17305272ca928c478e3d054" alt="Logo" width="130" height="130">
+    <img src="EmailSender\email.png" alt="Logo" width="130" height="130">
   </a>
   <h1 align="center">Email Sender</h1>
   <p align="center">
