@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "EmailSender": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34054,
+      "useSSL": false
+    }
+  }
+}
